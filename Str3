@@ -1,0 +1,3 @@
+a="SUPER"
+b="STAR"
+print(b[::-1]+a[::-1])
