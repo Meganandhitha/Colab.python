@@ -1,0 +1,14 @@
+a=input("Enter the number: ")
+count=0
+flag=0
+tag=0
+for i in a:
+   if i.isalpha():
+      count=count+1
+   elif i.isdigit():
+      flag=flag+1
+else:
+      tag=tag+1
+print("chars= ",count)
+print("Digit= ",flag)
+print("Symbols= ",tag)
