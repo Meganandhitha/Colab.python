@@ -1,0 +1,9 @@
+a=int(input("Enter a market price: \n"))
+if a>10000:
+    print("dicount 20%")
+elif a>7000 and a<=10000:
+    print("discount 15%")
+elif a<=7000:
+    print("discount 10%")
+else:
+    print("Invalid input")
