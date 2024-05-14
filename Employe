@@ -1,0 +1,9 @@
+a=int(input("Enter a experience:\n"))
+if a>8:
+    print("10% bonus")
+elif a>4:
+    print("7% bonus")
+elif a>2:
+    print("4% bonus")
+else:
+    print("Invalid input")
